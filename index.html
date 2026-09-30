@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Seriously Ernest — small product experiments and practical tools built by Ernest.">
+  <meta name="theme-color" content="#f6f4ef">
+  <title>Seriously Ernest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="Seriously Ernest home">
+        <span class="brand-mark" aria-hidden="true">SE</span>
+        <span>Seriously Ernest</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="https://github.com/SeriouslyErnest" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <p class="eyebrow">Things I've built and things I'm working on</p>
+      <h1>Small tools for practical problems.</h1>
+      <p class="hero-copy">
+        I'm Ernest. I use product thinking, process design and AI-assisted development to turn everyday problems into working prototypes and useful tools.
+      </p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#work">See the projects</a>
+        <a class="button button-secondary" href="https://github.com/SeriouslyErnest" target="_blank" rel="noreferrer">View GitHub</a>
+      </div>
+    </section>
+
+    <section id="work" class="section shell">
+      <div class="section-heading">
+        <p class="eyebrow">Selected work</p>
+        <h2>Built to be used, not just demonstrated.</h2>
+      </div>
+
+      <article class="project project-featured">
+        <div class="project-copy">
+          <div class="project-meta">
+            <span class="status status-live">Live</span>
+            <span>Singapore public transport</span>
+          </div>
+          <h3>BusFlash</h3>
+          <p class="project-tagline">See the buses you care about across nearby stops at a glance.</p>
+          <p>
+            BusFlash started as a simple class exercise and became something I kept refining for my own commute. I have more than one nearby bus stop, so the useful question is not only “when is the next bus?” but “which way should I walk?”
+          </p>
+          <p>
+            The interface focuses on a small set of chosen stops and services, using clear visual cues so the decision can be made quickly without digging through a full transport app.
+          </p>
+          <div class="project-actions">
+            <a class="button button-primary" href="https://busflash.lovable.app/demo" target="_blank" rel="noreferrer">Try the demo</a>
+            <a class="text-link" href="https://github.com/SeriouslyErnest/busflash" target="_blank" rel="noreferrer">View repository →</a>
+          </div>
+        </div>
+        <div class="project-visual busflash-visual" aria-label="Abstract BusFlash preview">
+          <div class="visual-window">
+            <div class="visual-topbar">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="visual-content">
+              <p class="visual-label">MAIN GATE</p>
+              <div class="bus-row">
+                <span class="bus-number">142</span>
+                <strong>3 min</strong>
+              </div>
+              <p class="visual-label second">SIDE GATE</p>
+              <div class="bus-row alert">
+                <span class="bus-number">148</span>
+                <strong>Arriving</strong>
+              </div>
+              <div class="bus-row">
+                <span class="bus-number">142</span>
+                <strong>7 min</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="status status-progress">In development</span>
+            <span>Household utility</span>
+          </div>
+          <h3>HomeStock</h3>
+          <p class="project-tagline">Know what you have. Buy what you need.</p>
+          <p>
+            A household inventory and restocking tool designed to reduce duplicate purchases and make it easier to know what is running low before heading to the shops.
+          </p>
+          <p class="small-note">Built around quick scanning, minimum stock levels and shared household use.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="status status-progress">In development</span>
+            <span>Group planning</span>
+          </div>
+          <h3>CommonRoute</h3>
+          <p class="project-tagline">Helping groups find a route everyone can live with.</p>
+          <p>
+            A collaborative trip-planning concept for families and friends with different interests, pace and practical needs.
+          </p>
+          <p class="small-note">Explores preference capture, voting, consensus and practical itinerary planning.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section section-muted">
+      <div class="shell about-grid">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>I like turning fuzzy problems into something concrete.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            My day-to-day work is not software engineering. These projects are a way for me to explore product ideas, requirements, workflows and user experience by taking them far enough to become working applications.
+          </p>
+          <p>
+            AI-assisted development has lowered the barrier between an idea and a usable prototype. What interests me most is deciding what should be built, how it should work, what should stay simple, and whether the result actually solves the original problem.
+          </p>
+          <a class="text-link" href="https://github.com/SeriouslyErnest" target="_blank" rel="noreferrer">github.com/SeriouslyErnest →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-wrap">
+      <p>Seriously Ernest</p>
+      <p>Built as a simple static site on GitHub Pages.</p>
+    </div>
+  </footer>
+</body>
+</html>
