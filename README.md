@@ -6,11 +6,11 @@ I tend to start with a practical problem, work out how I think the experience sh
 
 ## Projects
 
-### Bus Buddy
+### BusGlance
 A simple way to compare the buses I care about across nearby bus stops, so I can decide which way to head at a glance.
 
-- Live demo: https://busflash.lovable.app/demo
-- Repository: https://github.com/SeriouslyErnest/busflash
+- Live demo: https://BusGlance.lovable.app/demo
+- Repository: https://github.com/SeriouslyErnest/BusGlance
 
 ### HomeStock
 Know what you have. Buy what you need.
